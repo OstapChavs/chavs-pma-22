@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання №2</title>
+</head>
+<body>
+<form action="handler.php">
+
+    <p>Дайте відповіді на запитання:</p>
+    <p>Ім'я: <input type="text" required value="Ваше ім'я"/></p>
+    <p>Прізвище :<input type="text" /></p>
+    <p>Імейл: <input type="email " multiple size="42"></p>
+    <p>Пароль: <input type="password " minlength="7" maxlength="29"></p>
+    <p>Вік:<input type="age" min="3" max="25" ></p>
+    <p>Виберіть число від 0 до 42 :<input type="number" min="0" max="42" step="1"></p>
+    <p>Улюблений колір?</p>
+    <p><input name="colour" type="radio" value="orange">Помаранчевий</p>
+    <p><input name="colour" type="radio" value="pink" > Рожевий</p>
+    <p><input name="colour" type="radio" value="blue" > Голубий</p>
+    <p><b>Місце для вводу тексту</b></p>
+    <p><textarea rows="13" cols="13" name="text"></textarea></p>
+    <button type="button">Кнопка, яка нічого не робить </button>
+    <p><input type="submit" value="send"></p>
+    <p>Оберіть вашу улюблену мову програмування</p>
+    <p><input name="MeMe" type="radio" value="С#"> C#</p>
+    <p><input name="MeMe" type="radio" value="C++"> C++</p>
+    <p><input name="MeMe" type="radio" value="Java"> Java</p>
+    <p><input name="MeMe" type="radio" value="PHP"> PHP</p>
+    <p><input name="MeMe" type="radio" value="Python" checked > Python</p>
+    <p><b>Що вам найбільше імпонує?</b></p>
+    <select multiple >
+        <option value="ram">Оперативна пам'ять</option>
+        <option value="video">Відео-пам'ять</option>
+        <option value="mouse">Мишка</option>
+        <option value="don't">Нічого з вищевказаного</option>
+    </select>
+    <p><b>Оберіть всі можливі варіанти(ваше улюблене заняття)</b></p>
+    <p><input type="checkbox" id="check0"><label for="check0">Спати</label><Br>
+        <input type="checkbox" id="check1"><label for="check1">Їсти</label><Br>
+        <input type="checkbox" id="check2"><label for="check2">Пити</label><Br>
+        <input type="checkbox" id="check3"><label for="check3">Бігати</label><Br>
+        <input type="checkbox" id="check4"><label for="check4">Лежати</label></p>
+</form>
+</body>
+</html>
